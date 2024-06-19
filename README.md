@@ -1,5 +1,5 @@
 # Random file chooser
-## This is simple cli tool which can output random file name from specific directory
+### This is simple cli tool which can output random file name from specific directory
 
 This is only used for scripting
 
