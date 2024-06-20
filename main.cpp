@@ -4,12 +4,17 @@
 #include <vector>
 
 int main(int argc, char *argv[]) {
+	// Check if argument is supplied
+	if (argc < 2) {
+		std::cout << "There is no specified dir\n";
+		
+		return 1;
+	}
+	
 	// Get path argument
 	std::string directoryPath = argv[1];
 	// Vector to store files
 	std::vector<std::string> files;
-
-	// TODO: Check if theres no argument
 
 	// List files
 	for (const auto& entry : std::filesystem::directory_iterator(directoryPath)) {
@@ -21,6 +26,7 @@ int main(int argc, char *argv[]) {
 	// Check if directory empty
 	if (files.empty()) {
 		std::cout << "No files found in directory " << directoryPath << std::endl;
+
 		return 1;
 	}
 
