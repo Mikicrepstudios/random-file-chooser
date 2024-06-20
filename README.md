@@ -6,4 +6,5 @@ This is only used for scripting
 ## Usage
 1. Compile with `./compile.sh`
 2. Run with `./out {dir path}`
-Replace ˙{dir path}˙ with directory you want to get random file from
+
+Replace `{dir path}` with directory you want to get random file from
