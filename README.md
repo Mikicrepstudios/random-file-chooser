@@ -8,3 +8,6 @@ This is only used for scripting
 2. Run with `./out {dir path}`
 
 Replace `{dir path}` with directory you want to get random file from
+
+## Tutorial
+[https://youtu.be/oHye7T4Lack?si=fmNmzFeGnz2eIrjn](https://youtu.be/oHye7T4Lack?si=fmNmzFeGnz2eIrjn)
