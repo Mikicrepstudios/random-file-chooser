@@ -10,7 +10,7 @@ If you are on arch linux you can just do
 
 For other distros follow steps below
 
-## Usage
+## Compiling and running
 1. Compile with `make`
 2. Run with `./out {dir path}`
 
